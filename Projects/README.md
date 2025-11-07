@@ -1,10 +1,10 @@
-# 📁 Portfolio Projects Hub
+# Portfolio Projects Hub
 
 This directory contains the source code for all major projects showcased on my professional portfolio website. Each sub-folder represents an independent project designed to demonstrate proficiency in a specific area of technology.
 
 ---
 
-## 🚀 Projects Included
+## Projects Included
 
 | Project Folder | Primary Technology | Focus / Skills Demonstrated | Live URL Link |
 | :--- | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ This directory contains the source code for all major projects showcased on my p
 
 ---
 
-## 💡 How to View Projects
+## How to View Projects
 
 1.  **Web Projects (e.g., `indulge-web-project`)**:
     * For the best experience, click the **"View Live Site"** link in the table above to see the deployed version on GitHub Pages.
