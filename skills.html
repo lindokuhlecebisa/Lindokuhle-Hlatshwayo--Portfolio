@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Skills | Lindokuhle Hlatshwayo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  /* Custom Cursor Dot */
+  #dot-of-i {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background: #ff00ff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ff00ff;
+    pointer-events: none;
+    transition: transform 0.1s ease-out, background-color 0.2s;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Blurred Background Circles */
+  .animate-pulse-slow { animation: pulse 6s infinite; }
+  .animate-ping-slow { animation: ping 6s infinite; }
+
+  /* Card hover effect */
+  .card { transition: all 0.3s ease-in-out; }
+  .card:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 0 20px rgba(54,198,232,0.3); }
+
+  /* Tech Stack Horizontal Scroll */
+  .tech-slider {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 80s linear infinite;
+  }
+  .tech-slider:hover {
+    animation-play-state: paused;
+  }
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .tech-slider img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+  @media (max-width: 768px) {
+    .tech-slider img {
+      width: 12vw;
+      height: auto;
+    }
+  }
+</style>
+</head>
+  <body class="bg-[#1C1217] text-gray-300 font-sans relative overflow-x-hidden flex flex-col min-h-screen" style="cursor: none;">
+    <div class="flex-1">
+  <!-- Custom cursor -->
+  <span id="dot-of-i"></span>
+
+  <!-- Background blobs -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-[#C03998]/10 rounded-full blur-3xl animate-pulse-slow"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#36C6E8]/10 rounded-full blur-3xl animate-ping-slow"></div>
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full bg-[#1C1217]/80 backdrop-blur-md py-4 px-8 flex justify-between items-center z-50 border-b border-[#36C6E8]/20">
+    <h2 class="text-xl font-bold bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">Lindokuhle Hlatshwayo</h2>
+    <div class="space-x-6 text-lg">
+      <a href="index.html" class="hover:text-[#36C6E8] transition">Home</a>
+      <a href="about.html" class="hover:text-[#E836A3] transition">About</a>
+      <a href="skills.html" class="text-[#C03998] font-semibold">Skills</a>
+      <a href="projects.html" class="hover:text-[#36C6E8] transition">Projects</a>
+      <a href="certificates.html" class="hover:text-[#E836A3] transition">Certificates</a>
+      <button id="openContactDrawer" class="text-gray-300 hover:text-[#E836A3] transition px-2 py-1 rounded-lg">Contact</button>
+    </div>
+  </nav>
+
+  <!-- My Tech Stack Section -->
+  <section class="pt-32 max-w-6xl mx-auto px-6 text-center mb-16">
+    <h2 class="text-4xl font-bold mb-8 bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">My Tech Stack</h2>
+    
+    <div class="overflow-hidden relative">
+      <div class="tech-slider space-x-8">
+        <!-- Logos duplicated for seamless scroll -->
+        <img src="logos/html.jpg" alt="HTML logo">
+        <img src="logos/css.jpg" alt="CSS logo">
+        <img src="logos/javascript.jpg" alt="JavaScript">
+        <img src="logos/java.jpg" alt="Java logo">
+        <img src="logos/css.jpg" alt="CSS logo">
+        <img src="logos/github.jpg" alt="GitHub logo">
+        <img src="logos/python.jpg" alt="Python logo">
+        <img src="logos/linux.jpg" alt="Linux logo">
+        <img src="logos/microsoft_office_suite.jpg" alt="Microsoft Office logo">
+        <!-- Duplicated -->
+        <img src="logos/html.jpg" alt="HTML logo">
+        <img src="logos/css.jpg" alt="CSS logo">
+        <img src="logos/javascript.jpg" alt="JavaScript">
+        <img src="logos/java.jpg" alt="Java logo">
+        <img src="logos/css.jpg" alt="CSS logo">
+        <img src="logos/github.jpg" alt="GitHub logo">
+        <img src="logos/python.jpg" alt="Python logo">
+        <img src="logos/linux.jpg" alt="Linux logo">
+        <img src="logos/microsoft_office_suite.jpg" alt="Microsoft Office logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- What I Do Section -->
+  <section class="pt-16 max-w-6xl mx-auto px-6 text-center mb-20">
+    <h2 class="text-4xl font-bold mb-12 bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">
+      What I Do
+    </h2>
+
+    <div class="grid md:grid-cols-4 gap-8 text-left mb-10">
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-bold text-white mb-2">Web Development</h3>
+        <p class="text-gray-400">I create responsive, modern, and accessible websites using HTML, CSS, JavaScript, and frameworks like TailwindCSS. My focus is on clean design and smooth user experiences.</p>
+      </div>
+      <div class="card bg-[#1C1217] border border-[#E836A3]/30 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-bold text-white mb-2">Cybersecurity Documentation and Analysis</h3>
+        <p class="text-gray-400">I develop and document essential cybersecurity processes, including incident handling, risk scoring, threat modeling (PASTA), vulnerability analysis, network protocol analysis, security control improvements, and using tools like Linux commands and SQL filters</p>
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-bold text-white mb-2">Tools & Platforms</h3>
+        <p class="text-gray-400">I work with GitHub for version control, Linux environments for development, Microsoft Office Suite for productivity, and VS Code for coding efficiently. I ensure smooth workflows across platforms.</p>
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-bold text-white mb-2">Full-Stack Scripting and Application Development</h3>
+        <p class="text-gray-400">I leverage Python for automation, scripting, and data analysis; Java for developing robust, enterprise-level applications; and Linux for systems administration, command-line utilities, and deployment environments.</p>
+    </div>
+
+
+  <!-- Explore Projects button -->
+  <div class="text-center mt-12 mb-32">
+    <a href="projects.html" class="inline-block bg-gradient-to-r from-[#36C6E8] to-[#C03998] text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-[#C03998] hover:to-[#E836A3] transition duration-300 transform hover:scale-105 shadow-lg">
+      Explore My Projects →
+    </a>
+  </div>
+
+  <!-- Contact Drawer -->
+  <div id="contactDrawerOverlay" class="fixed inset-0 bg-black bg-opacity-70 z-[100] hidden transition-opacity duration-300">
+    <div id="contactDrawer" class="fixed top-0 right-0 w-full md:w-1/2 h-full bg-[#391217] shadow-2xl transform translate-x-full transition-transform duration-500 ease-in-out p-8">
+      <div class="flex justify-between items-center mb-10 pb-4 border-b border-gray-700">
+        <h2 class="text-3xl font-bold text-[#E836A3]">Get in Touch</h2>
+        <button id="closeContactDrawer" class="text-gray-400 hover:text-white transition text-2xl">&times;</button>
+      </div>
+      <div class="space-y-6 text-lg">
+        <div class="flex items-center text-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-[#36C6E8]" viewBox="0 0 24 24"><path fill="currentColor" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z"/></svg>
+          <a href="mailto:lindokuhlecebisa7@gmail.com" class="hover:text-[#E836A3] transition">lindokuhlecebisa7@gmail.com</a>
+        </div>
+        <div class="flex items-center text-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-[#C03998]" viewBox="0 0 24 24"><path fill="currentColor" d="M16 4h-4v2h2.586l-3.293 3.293l1.414 1.414l3.293-3.293V11h2V5c0-.55-.45-1-1-1zm1 14H7V8H5v11c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V8h-2v10z"/></svg>
+          <span>+27 76 836 4060</span>
+        </div>
+        <div class="flex items-center text-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-[#36C6E8]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+          <span>Durban, South Africa</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="relative mt-20 text-center border-t border-[#36C6E8]/20 pt-10 pb-6 bg-[#1C1217]/80 backdrop-blur-md">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+      <h3 class="text-lg font-semibold bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">
+        © 2025 Lindokuhle Hlatshwayo
+      </h3>
+      <div class="flex space-x-6 text-gray-400">
+        <a href="https://github.com/" target="_blank" class="hover:text-[#36C6E8] transition">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="hover:text-[#E836A3] transition">LinkedIn</a>
+        <a href="mailto:lindokuhlecebisa7@gmail.com" class="hover:text-[#36C6E8] transition">Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Cursor
+  const dot = document.getElementById('dot-of-i');
+  document.addEventListener('mousemove', e => {
+    dot.style.left = e.clientX + 'px';
+    dot.style.top = e.clientY + 'px';
+  });
+
+  // Contact drawer
+  const openBtn = document.getElementById('openContactDrawer');
+  const closeBtn = document.getElementById('closeContactDrawer');
+  const overlay = document.getElementById('contactDrawerOverlay');
+  const drawer = document.getElementById('contactDrawer');
+
+  function openDrawer() {
+    overlay.classList.remove('hidden');
+    setTimeout(() => { overlay.classList.add('opacity-100'); drawer.classList.remove('translate-x-full'); }, 10);
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeDrawer() {
+    overlay.classList.remove('opacity-100');
+    drawer.classList.add('translate-x-full');
+    setTimeout(() => { overlay.classList.add('hidden'); document.body.style.overflow = 'auto'; }, 500);
+  }
+
+  openBtn.addEventListener('click', openDrawer);
+  closeBtn.addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', e => { if(e.target.id === 'contactDrawerOverlay') closeDrawer(); });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lindokuhle Hlatshwayo | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    #dot-of-i {
+      position: fixed;
+      width: 15px;
+      height: 15px;
+      background: #ff00ff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #ff00ff;
+      pointer-events: none;
+      transition: transform 0.1s ease-out, background-color 0.2s;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+    }
+
+    .animate-pulse-slow {
+      animation: pulse 6s infinite;
+    }
+
+    .animate-ping-slow {
+      animation: ping 6s infinite;
+    }
+  </style>
+</head>
+<body class="bg-[#1C1217] text-gray-300 font-sans relative overflow-x-hidden" style="cursor: none;">
+  <span id="dot-of-i"></span>
+
+  <!-- Background Blobs -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-[#C03998]/10 rounded-full blur-3xl animate-pulse-slow"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#36C6E8]/10 rounded-full blur-3xl animate-ping-slow"></div>
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-[#1C1217]/80 backdrop-blur-md py-4 px-8 flex justify-between items-center z-50 border-b border-[#36C6E8]/20">
+    <h2 class="text-xl font-bold bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">Lindokuhle Hlatshwayo</h2>
+    <div class="space-x-6 text-lg">
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative z-10 text-center py-40 px-6">
+    <h1 class="text-6xl font-extrabold bg-gradient-to-r from-[#C03998] via-[#E836A3] to-[#36C6E8] bg-clip-text text-transparent">
+      Lindokuhle Hlatshwayo
+    </h1>
+    <p class="mt-4 text-xl text-gray-400">Computer Science & IT Student | Aspiring Cybersecurity Analyst</p>
+    <a href="about.html" class="inline-block mt-8 bg-gradient-to-r from-[#C03998] to-[#E836A3] text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-[#E836A3] hover:to-[#36C6E8] transition duration-300 transform hover:scale-105 shadow-lg">
+      Learn More About Me
+    </a>
+  </header>
+
+<!-- Footer -->
+<footer class="relative mt-20 text-center border-t border-[#36C6E8]/20 pt-10 pb-6 bg-[#1C1217]/80 backdrop-blur-md">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex flex-col items-center justify-center space-y-4">
+      <h3 class="text-lg font-semibold bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">
+        © 2025 Lindokuhle Hlatshwayo
+      </h3>
+      <p class="text-gray-400 text-sm">All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    const dot = document.getElementById('dot-of-i');
+    document.addEventListener('mousemove', e => {
+      dot.style.left = e.clientX + 'px';
+      dot.style.top = e.clientY + 'px';
+    });
+  </script>
+</body>
+</html>

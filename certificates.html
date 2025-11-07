@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates | Lindokuhle Hlatshwayo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Floating Cursor */
+    #dot-of-i {
+      position: fixed;
+      width: 15px;
+      height: 15px;
+      background: #ff00ff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #ff00ff;
+      pointer-events: none;
+      transition: transform 0.1s ease-out, background-color 0.2s;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Background Animation */
+    .animate-pulse-slow { animation: pulse 6s infinite; }
+    .animate-ping-slow { animation: ping 6s infinite; }
+
+    /* Certificate Card */
+    .card {
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 0 20px rgba(54,198,232,0.3);
+    }
+
+    /* Contact Drawer */
+    #contactDrawer {
+      transition: transform 0.5s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-[#1C1217] text-gray-300 font-sans relative overflow-x-hidden" style="cursor: none;">
+
+  <!-- Floating Cursor -->
+  <span id="dot-of-i"></span>
+
+  <!-- Background Blobs -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-[#C03998]/10 rounded-full blur-3xl animate-pulse-slow"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#36C6E8]/10 rounded-full blur-3xl animate-ping-slow"></div>
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-[#1C1217]/80 backdrop-blur-md py-4 px-8 flex justify-between items-center z-50 border-b border-[#36C6E8]/20">
+    <h2 class="text-xl font-bold bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">Lindokuhle</h2>
+    <div class="space-x-6 text-lg flex items-center">
+      <a href="index.html" class="hover:text-[#36C6E8] transition">Home</a>
+      <a href="about.html" class="hover:text-[#E836A3] transition">About</a>
+      <a href="skills.html" class="hover:text-[#C03998] transition">Skills</a>
+      <a href="projects.html" class="hover:text-[#36C6E8] transition">Projects</a>
+      <a href="certificates.html" class="text-[#C03998]">Certificates</a>
+      <button id="openContactDrawer" class="text-gray-300 hover:text-[#E836A3] transition duration-300 px-2 py-1 rounded-lg">
+        Contact
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative z-10 text-center py-32 px-6">
+    <h1 class="text-5xl font-extrabold bg-gradient-to-r from-[#C03998] via-[#E836A3] to-[#36C6E8] bg-clip-text text-transparent">
+      My Certificates
+    </h1>
+    <p class="mt-4 text-lg text-gray-400">A visual gallery of the courses and certifications I've completed.</p>
+  </header>
+
+  <!-- Certificates Gallery -->
+  <section class="max-w-6xl mx-auto px-6 pb-12">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <!-- Repeat this block for each certificate -->
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert1.png">
+        <img src="certificates/cert1.png" alt="Certificate 1" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert2.png">
+        <img src="certificates/cert2.png" alt="Certificate 2" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert3.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert4.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert5.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert6.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert7.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert8.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert9.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="card bg-[#1C1217] border border-[#36C6E8]/30 rounded-2xl overflow-hidden shadow-lg" data-img="certificates/cert3.png">
+        <img src="certificates/cert10.png" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+    </div>
+
+    <p class="mt-6 text-center text-gray-400 text-sm">
+      PDF versions of the certificates have been attached/sent with the CV and are also available on LinkedIn.
+    </p>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 hidden">
+    <img id="lightbox-img" src="" alt="Certificate" class="max-h-[90%] max-w-[90%] rounded-xl shadow-2xl">
+    <button id="close-lightbox" class="absolute top-5 right-5 text-white text-3xl font-bold">&times;</button>
+  </div>
+
+  <!-- Contact Drawer -->
+  <div id="contactDrawerOverlay" class="fixed inset-0 bg-black bg-opacity-70 z-[100] hidden transition-opacity duration-300">
+    <div id="contactDrawer" class="fixed top-0 right-0 w-full md:w-1/2 h-full bg-[#391217] shadow-2xl transform translate-x-full p-8">
+      <div class="flex justify-between items-center mb-10 pb-4 border-b border-gray-700">
+        <h2 class="text-3xl font-bold text-[#E836A3]">Get in Touch</h2>
+        <button id="closeContactDrawer" class="text-gray-400 hover:text-white transition text-2xl">&times;</button>
+      </div>
+      <div class="space-y-6 text-lg">
+        <div class="flex items-center text-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-[#36C6E8]" viewBox="0 0 24 24"><path fill="currentColor" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z"/></svg>
+          <a href="mailto:lindokuhlecebisa7@gmail.com" class="hover:text-[#E836A3] transition">lindokuhlecebisa7@gmail.com</a>
+        </div>
+        <div class="flex items-center text-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-[#C03998]" viewBox="0 0 24 24"><path fill="currentColor" d="M16 4h-4v2h2.586l-3.293 3.293l1.414 1.414l3.293-3.293V11h2V5c0-.55-.45-1-1-1zm1 14H7V8H5v11c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V8h-2v10z"/></svg>
+          <span>+27 76 836 4060</span>
+        </div>
+        <div class="flex items-center text-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3 text-[#36C6E8]" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+          <span>Durban, South Africa</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="relative mt-20 text-center border-t border-[#36C6E8]/20 pt-10 pb-6 bg-[#1C1217]/80 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+        <h3 class="text-lg font-semibold bg-gradient-to-r from-[#C03998] to-[#36C6E8] bg-clip-text text-transparent">
+          © 2025 Lindokuhle Hlatshwayo
+        </h3>
+        <div class="flex space-x-6 text-gray-400">
+          <a href="https://github.com/" target="_blank" class="hover:text-[#36C6E8] transition">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank" class="hover:text-[#E836A3] transition">LinkedIn</a>
+          <a href="mailto:lindokuhlecebisa7@gmail.com" class="cursor-pointer hover:text-[#36C6E8] transition">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Cursor movement
+    const dot = document.getElementById('dot-of-i');
+    document.addEventListener('mousemove', e => {
+      dot.style.left = e.clientX + 'px';
+      dot.style.top = e.clientY + 'px';
+    });
+
+    // Lightbox
+    const cards = document.querySelectorAll('.card');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeLightbox = document.getElementById('close-lightbox');
+
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        lightboxImg.src = card.getAttribute('data-img');
+        lightbox.classList.remove('hidden');
+      });
+    });
+
+    closeLightbox.addEventListener('click', () => lightbox.classList.add('hidden'));
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.classList.add('hidden'); });
+
+    // Contact Drawer
+    const openBtn = document.getElementById('openContactDrawer');
+    const openBtnFooter = document.getElementById('openContactDrawerFooter');
+    const closeBtn = document.getElementById('closeContactDrawer');
+    const overlay = document.getElementById('contactDrawerOverlay');
+    const drawer = document.getElementById('contactDrawer');
+
+    function openDrawer() {
+      overlay.classList.remove('hidden');
+      setTimeout(() => {
+        overlay.classList.add('opacity-100');
+        drawer.classList.remove('translate-x-full');
+      }, 10);
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDrawer() {
+      overlay.classList.remove('opacity-100');
+      drawer.classList.add('translate-x-full');
+      setTimeout(() => {
+        overlay.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }, 500);
+    }
+
+    openBtn.addEventListener('click', openDrawer);
+    openBtnFooter.addEventListener('click', openDrawer);
+    closeBtn.addEventListener('click', closeDrawer);
+    overlay.addEventListener('click', e => { if (e.target.id === 'contactDrawerOverlay') closeDrawer(); });
+  </script>
+
+</body>
+</html>
