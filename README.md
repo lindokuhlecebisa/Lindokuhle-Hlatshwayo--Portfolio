@@ -66,3 +66,8 @@ Feel free to connect with me for professional inquiries or collaboration opportu
 | **Email** | lindokuhlecebisa7@gmail.com |
 | **LinkedIn** | www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381 |
 | **GitHub** | https://github.com/lindokuhlecebisa(https://github.com/lindokuhlecebisa) |
+
+---
+
+## License
+This project is licensed under the MIT License.
