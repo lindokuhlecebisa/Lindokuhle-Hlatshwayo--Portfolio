@@ -51,7 +51,7 @@ To run this project on your own machine:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your HTTPS Repository URL Here]
+    git clone https://github.com/lindokuhlecebisa/Lindokuhle-Hlatshwayo--Portfolio
     ```
 2.  **Open the Homepage:** Navigate to the folder and simply double-click the **`index.html`** file. It will load instantly in your web browser.
 
