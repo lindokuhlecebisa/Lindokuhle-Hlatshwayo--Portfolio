@@ -1,7 +1,7 @@
 # Lindokuhle Hlatshwayo - Personal Portfolio Website
 
 ### 🔗 Live Site
-[**https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Personal-Portfolio/**](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Personal-Portfolio/)
+[**https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Personal-Portfolio/**](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo--Portfolio/)
 
 
 ---
