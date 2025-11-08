@@ -100,7 +100,7 @@ Includes certifications in:
 Durban, South Africa  
 <br>Email: lindokuhlecebisa7@gmail.com 
 <br>GitHub: [github.com/Lindokuhle-Hlatshwayo](https://github.com/lindokuhlecebisa/)  
-<br>LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)
+LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)
 
 ---
 
