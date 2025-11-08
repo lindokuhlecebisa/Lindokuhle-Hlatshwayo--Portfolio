@@ -7,7 +7,7 @@ This repository contains my personal portfolio website, developed to showcase my
 ## Live Site
 
 You can view the live portfolio here:  
- [https://lindokuhle-hlatshwayo.github.io/lindokuhlecebisa--Portfolio/](https://lindokuhle-hlatshwayo.github.io/lindokuhlecebisa--Portfolio/)
+ [https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo--Portfolio/]( https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo--Portfolio/)
 
 ---
 
@@ -79,7 +79,7 @@ A multi-page website demonstrating responsive design and user interactivity.
 A series of Jupyter notebooks including:  
 - Cramer’s Rule Solver  
 - Random Password Generator  
-- Simple Calculator  
+- Web Scraper 
 
 ---
 
@@ -95,12 +95,12 @@ Includes certifications in:
 ---
 
 ## Contact
-<pre>
+
 **Lindokuhle Hlatshwayo**  
 Durban, South Africa  
-Email: lindokuhlecebisa7@gmail.com 
-GitHub: [github.com/Lindokuhle-Hlatshwayo](https://github.com/lindokuhlecebisa/)  
-LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)</pre>
+<br>Email: lindokuhlecebisa7@gmail.com 
+<br>GitHub: [github.com/Lindokuhle-Hlatshwayo](https://github.com/lindokuhlecebisa/)  
+<br>LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)
 
 ---
 
