@@ -7,7 +7,7 @@ This repository contains my personal portfolio website, developed to showcase my
 ## Live Site
 
 You can view the live portfolio here:  
- [https://lindokuhle-hlatshwayo.github.io/Lindokuhle-Hlatshwayo--Portfolio/](https://lindokuhle-hlatshwayo.github.io/Lindokuhle-Hlatshwayo--Portfolio/)
+ [https://lindokuhle-hlatshwayo.github.io/lindokuhlecebisa--Portfolio/](https://lindokuhle-hlatshwayo.github.io/lindokuhlecebisa--Portfolio/)
 
 ---
 
@@ -95,12 +95,12 @@ Includes certifications in:
 ---
 
 ## Contact
-
+<pre>
 **Lindokuhle Hlatshwayo**  
 Durban, South Africa  
 Email: lindokuhlecebisa7@gmail.com 
 GitHub: [github.com/Lindokuhle-Hlatshwayo](https://github.com/lindokuhlecebisa/)  
-LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)
+LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)</pre>
 
 ---
 
