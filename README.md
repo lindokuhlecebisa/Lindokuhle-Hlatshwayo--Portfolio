@@ -6,6 +6,7 @@ This repository contains my personal portfolio website, developed to showcase my
 
 ## Repository Structure
 
+<pre> ```
 Lindokuhle-Hlatshwayo--Portfolio/
 ├── certificates/ # Folder containing 10 certification images
 │ ├── cert1.png
@@ -39,7 +40,7 @@ Lindokuhle-Hlatshwayo--Portfolio/
 │
 ├── index.html # Main entry point of the portfolio website
 └── README.md # Documentation file
-
+```</pre>
 
 ---
 
