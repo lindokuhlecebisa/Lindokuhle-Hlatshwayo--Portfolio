@@ -1,73 +1,101 @@
-# Lindokuhle Hlatshwayo - Personal Portfolio Website
+# Lindokuhle Hlatshwayo — Personal Portfolio
 
-### 🔗 Live Site
-[**https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo-Personal-Portfolio/**](https://lindokuhlecebisa.github.io/Lindokuhle-Hlatshwayo--Portfolio/)
-
+This repository contains my personal portfolio website, developed to showcase my technical skills, certifications, and projects. The site is built with HTML, CSS, and JavaScript, focusing on clean design, responsiveness, and a professional presentation.
 
 ---
-
-##  Project Overview
-
-This repository contains the source code for my personal portfolio website, which serves as a central showcase for my skills, completed projects, and certifications.
-
-The site is structured to demonstrate **professional development standards**, including:
-* **Clean Architecture:** Strict adherence to best practices for file organization and separation of concerns.
-* **Case Consistency:** All file and folder names are kept in lowercase to prevent common deployment errors on case-sensitive servers (like GitHub Pages).
-* **Foundational Skills:** Proficiency in core web technologies and version control.
-
-## Technology Stack
-
-This website is built entirely on the foundational languages of the web:
-
-* **HTML5:** Used for the semantic structure and content organization.
-* **CSS3:** Used for styling, responsive layout, and visual presentation.
-* **Internal JavaScript:** (If you have any inline or internal scripts for things like navigation toggles or basic interactivity, mention it here. If not, you can remove this bullet point.)
 
 ## Repository Structure
 
-The project follows a standard, organized web directory structure for optimal clarity and navigation:
+Lindokuhle-Hlatshwayo--Portfolio/
+├── certificates/ # Folder containing 10 certification images
+│ ├── cert1.png
+│ ├── cert2.png
+│ └── ... (up to cert10.png)
+│
+├── images/ # Skill icons and project screenshots
+│ ├── css.jpg
+│ ├── html.jpg
+│ ├── python.jpg
+│ ├── linux.jpg
+│ └── ... (other skill-related images)
+│
+├── pages/ # Main navigation pages
+│ ├── about.html
+│ ├── certificates.html
+│ ├── projects.html
+│ └── skills.html
+│
+├── Projects/ # Directory for featured coding projects
+│ ├── indulge-web-project/ # Web development project
+│ │ ├── images/ # Assets for this project
+│ │ ├── pages/ # Subpages (about, services, etc.)
+│ │ └── index.html # Project landing page
+│ │
+│ └── python-projects/ # Collection of Python Jupyter Notebooks
+│ ├── Cramer's Rule Solver.ipynb
+│ ├── Random Password Generator.ipynb
+│ ├── Simple Calculator.ipynb
+│ └── ... (more notebooks)
+│
+├── index.html # Main entry point of the portfolio website
+└── README.md # Documentation file
 
-| Directory/File | Purpose |
-| :--- | :--- |
-| **`index.html`** | The main landing page and entry point for the entire website. |
-| **`pages/`** | Contains all secondary HTML pages (`about.html`, `skills.html`, etc.) for clean navigation. |
-| **`images/`** | Stores all media assets for the portfolio (profile photo, skill icons, logos). |
-| **`certificates/`** | Stores the actual proof documents (`cert1.png`, etc.) displayed on the certificate page. |
-| **`Projects/`** | Houses the source code folders for all showcased individual projects. |
-| **`README.md`** | This documentation file. |
 
 ---
 
-## Projects Overview
+## Features
 
-The `Projects/` folder is divided into specialized directories:
+- Fully responsive portfolio website  
+- Clean and minimal user interface  
+- Dedicated pages for skills, projects, and certifications  
+- Interactive components using JavaScript  
+- Organized project and certificate galleries  
 
-* **`indulge-web-project/`**: Contains the code for my multi-page web design project, which demonstrates HTML and CSS proficiency.
-* **`python-projects/`**: Contains various Python scripts and Jupyter Notebooks (`.ipynb`), showcasing problem-solving and scripting skills.
+---
 
-## Viewing the Site Locally
+## Technologies Used
 
-To run this project on your own machine:
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Version Control:** Git, GitHub  
+- **Python Projects:** Jupyter Notebook  
+- **Operating Systems:** Linux, Windows  
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/lindokuhlecebisa/Lindokuhle-Hlatshwayo--Portfolio
-    ```
-2.  **Open the Homepage:** Navigate to the folder and simply double-click the **`index.html`** file. It will load instantly in your web browser.
+---
+
+## Highlighted Projects
+
+**Indulge Web Project**  
+A multi-page website demonstrating responsive design and user interactivity.
+
+**Python Projects Collection**  
+A series of Jupyter notebooks including:  
+- Cramer’s Rule Solver  
+- Random Password Generator  
+- Simple Calculator  
+
+---
+
+## Certifications
+
+Includes certifications in:  
+- Cybersecurity  
+- Python Programming  
+- Linux Fundamentals  
+- Web Development  
+- Data Analysis  
 
 ---
 
 ## Contact
 
-Feel free to connect with me for professional inquiries or collaboration opportunities!
-
-| Platform | Contact Details |
-| :--- | :--- |
-| **Email** | lindokuhlecebisa7@gmail.com |
-| **LinkedIn** | www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381 |
-| **GitHub** | https://github.com/lindokuhlecebisa(https://github.com/lindokuhlecebisa) |
+**Lindokuhle Hlatshwayo**  
+Durban, South Africa  
+Email: lindokuhlecebisa7@gmail.com 
+GitHub: [github.com/Lindokuhle-Hlatshwayo](https://github.com/lindokuhlecebisa/)  
+LinkedIn: [linkedin.com/in/lindokuhle-hlatshwayo](https://www.linkedin.com/in/lindokuhle-hlatshwayo-00b024381/)
 
 ---
 
 ## License
-This project is licensed under the MIT License.
+
+This project is open source and available under the MIT License.
