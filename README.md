@@ -33,6 +33,8 @@ Lindokuhle-Hlatshwayo--Portfolio/
 │ ├── projects.html
 │ └── skills.html
 │
+├──Industrial-Cybersecurity-Monitoring-System
+│
 ├── Projects/ # Directory for featured coding projects
 │ ├── indulge-web-project/ # Web development project
 │ │ ├── images/ # Assets for this project
@@ -71,6 +73,9 @@ Lindokuhle-Hlatshwayo--Portfolio/
 ---
 
 ## Highlighted Projects
+
+**Industrial Cybersecurity Monitoring System**
+A Python-based simulation of an industrial cybersecurity monitoring system that generates system activity logs, detects anomalous behavior, and triggers real-time security alerts using rule-based logic.
 
 **Indulge Web Project**  
 A multi-page website demonstrating responsive design and user interactivity.
