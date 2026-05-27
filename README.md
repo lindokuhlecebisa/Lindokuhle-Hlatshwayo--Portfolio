@@ -74,7 +74,7 @@ Lindokuhle-Hlatshwayo--Portfolio/
 
 ## Highlighted Projects
 
-**Industrial Cybersecurity Monitoring System**
+**Industrial Cybersecurity Monitoring System**  
 A Python-based simulation of an industrial cybersecurity monitoring system that generates system activity logs, detects anomalous behavior, and triggers real-time security alerts using rule-based logic.
 
 **Indulge Web Project**  
