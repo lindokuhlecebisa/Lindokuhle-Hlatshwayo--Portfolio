@@ -1,0 +1,6 @@
+{'timestamp': '2026-05-27 14:17:51', 'user': 'operator2', 'action': 'config_change', 'status': 'FAIL', 'ip': '192.168.1.98'}
+{'timestamp': '2026-05-27 14:17:53', 'user': 'operator1', 'action': 'machine_start', 'status': 'SUCCESS', 'ip': '192.168.1.9'}
+{'timestamp': '2026-05-27 14:17:55', 'user': 'operator1', 'action': 'machine_stop', 'status': 'FAIL', 'ip': '192.168.1.33'}
+{'timestamp': '2026-05-27 14:17:57', 'user': 'operator1', 'action': 'machine_start', 'status': 'SUCCESS', 'ip': '192.168.1.65'}
+{'timestamp': '2026-05-27 14:17:59', 'user': 'operator2', 'action': 'login', 'status': 'SUCCESS', 'ip': '192.168.1.3'}
+{'timestamp': '2026-05-27 14:18:01', 'user': 'guest', 'action': 'machine_stop', 'status': 'SUCCESS', 'ip': '192.168.1.35'}
